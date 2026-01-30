@@ -1,0 +1,6 @@
+services:
+  orfis:
+    build: .
+    container_name: orfis
+    ports:
+      - "8081:8081"
