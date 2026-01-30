@@ -1,31 +1,21 @@
-<<<<<<< HEAD
 target/
+out/
+
+!.mvn/wrapper/maven-wrapper.jar
+
+*.log
+app.log
+log.txt
+
+.DS_Store
+
 .idea/
 *.iml
 .classpath
 .project
 .settings/
 .vscode/
-.DS_Store
 
-*.log
-app.log
-
-.mvn/wrapper/maven-wrapper.jar
-=======
-# Compiled class file
-*.class
-
-# Log file
-*.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
 *.jar
 *.war
 *.nar
@@ -34,7 +24,5 @@ app.log
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
->>>>>>> 23943c2a24522c0c817b75aeb44c36e24611a022
